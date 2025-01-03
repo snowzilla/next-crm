@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #2a2a2a;
+  position: absolute;
+  height: calc(100vh - 84px);
+}
+
+.link {
+  font-size: 20px;
+  transition: 0.15s;
+  padding: 10px;
+  border-radius: 5px;
+
+  &:hover {
+    color: #000;
+    background-color: #ffffff;
+    transition: 0.15s;
+  }
+}
+
+
+.active{
+  color: #000;
+  background-color: #ffffff;
+}

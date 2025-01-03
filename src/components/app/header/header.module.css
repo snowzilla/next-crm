@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2a2a2a;
+}
+
+.right,
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.15s;
+}
+
+.avatar:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.66);
+  transition: 0.15s;
+}

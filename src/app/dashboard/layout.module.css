@@ -1,0 +1,20 @@
+.content {
+  display: flex;
+  overflow-y: scroll;
+  height: calc(100vh - 84px);
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.children {
+  margin-left: 300px;
+  padding: 20px;
+  width: 100%;
+}
+
+
+.back {
+  margin-bottom: 20px;
+}

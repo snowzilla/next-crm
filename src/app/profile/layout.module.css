@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+  height: calc(100vh - 84px);
+}
+
+.children {
+  padding: 40px 20px 20px;
+  width: 100%;
+}
